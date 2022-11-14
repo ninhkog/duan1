@@ -1,0 +1,86 @@
+html{
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+}
+*{
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    height: 70%;
+    background-color: #9eb6e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.dangnhap{
+    padding: 90px 75px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+}
+.tieude{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+   text-align: center;
+   margin-bottom: 35px;
+     
+}
+.dangnhap-lable {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+.dangnhap-input {
+    display: block;
+    width: 100%;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.qmk{   
+    text-align: center;
+    font-size: 18px;
+    color:#2979ff;
+   
+
+}
+.submit{
+    padding: 25px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border: 0;
+    width: 100%;
+    outline: none;
+    display:inline-block ;
+    border-radius: 20px;
+    background-color: 	#DF73FF;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 5px 10px 0 	#007FFF;
+    margin-top: 25px;
+}
+.submit:hover{
+    background-color: blueviolet;
+}
+.chuthich{
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+}
+.linkdk{
+    color:#2979ff;
+    text-decoration: none;
+}
